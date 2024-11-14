@@ -1,6 +1,6 @@
+﻿using ContextFreeTasks;
 using System;
 using System.Threading.Tasks;
-using ContextFreeTasks;
 using Xunit;
 
 namespace UnitTest
@@ -19,11 +19,13 @@ namespace UnitTest
             _syncContext.Dispose();
         }
 
+#pragma warning disable xUnit1031
         [Fact]
         public void TestMethod1()
         {
             TestMethod1Async().Wait();
         }
+#pragma warning restore xUnit1031
 
         private async Task TestMethod1Async()
         {

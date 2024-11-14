@@ -1,6 +1,6 @@
-﻿using System.Runtime.CompilerServices;
+﻿using ContextFreeTasks.Internal;
+using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
-using ContextFreeTasks.Internal;
 using static System.Threading.Tasks.Task;
 
 namespace ContextFreeTasks

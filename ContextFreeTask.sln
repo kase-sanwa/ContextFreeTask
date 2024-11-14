@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CCD7F356-58C1-4A5D-9694-D61EFB1998E1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6A74A06E-95AD-4282-B5CD-8F3981EB36FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestNet45", "tests\UnitTestNet45\UnitTestNet45.csproj", "{5F2CAD27-1E74-479F-89CC-76189071EF38}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "tests\UnitTestNet45\UnitTest.csproj", "{5F2CAD27-1E74-479F-89CC-76189071EF38}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContextFreeTasks", "src\ContextFreeTasks\ContextFreeTasks.csproj", "{C418B8B6-E3EB-450D-824F-95864135193A}"
 EndProject
